@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Open+Sans:wght@500&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+h1{
+    color: rgb(108, 80, 222);
+    
+}
+span{
+    color: blueviolet;
+}
+.sagar{
+    box-shadow: 5px 5px 15px black;
+    border-radius: 10px;
+}
+
+.menu{
+    background-color: #1e272e;
+}
+.menu a{
+    color: white;
+}
+.navbar{
+    padding: 15px;
+    font-size: 20px;
+}
+.navbar li a{
+    margin-left: 20px;
+}
+.navbar a:hover{
+    color:#0097e6 ;
+}
+.navbar-toggler{
+    background-color: gray;
+    color: white;
+}
+
+.fa-snowflake{
+    transition: all linear;
+    animation: sagar 2s linear infinite;
+    color: #0097e6;
+}
+
+@keyframes sagar{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+#day{
+    color: white;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+
+.weather{
+    border: none;
+    border-radius: 30px;
+    background-color: #0a5a86;
+    padding: 20px;
+    color: white;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    animation: weather 2s ease-in-out infinite;
+}
+
+  
+  @keyframes weather {
+    from {background-color:  #0a5a86;}
+    to {background-color:  #589dc2;}
+  }
+
+.temp_form input {
+    border-radius: 10px;
+    padding: 10px 10px;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+#submitBtn{
+    background-color: blueviolet;
+    color: white; 
+    transition: 0.3s;  
+}
+#submitBtn:hover{
+    background-color: violet;
+    color: black;
+}
+.main_layer{
+    font-size: 20px;
+}
