@@ -12,7 +12,7 @@ let a;
         setInterval(() => {
         a = new Date();
         date = a.toLocaleDateString();
-        time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
+        time = a.getHours(12) + ':' + a.getMinutes() + ':' + a.getSeconds();
         document.getElementById('day').innerHTML = time + " on " + date +" as in India ";
         }, 1000);
 
